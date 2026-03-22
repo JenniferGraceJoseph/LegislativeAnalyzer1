@@ -1,6 +1,6 @@
 import { GoogleGenAI, Type, GenerateContentResponse } from "@google/genai";
 
-const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY || "" });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyAM50kGorLmelBb5lmjGoSPgoKm795gET8" });
 
 export interface CompressedChunk {
   provisions: string[];
